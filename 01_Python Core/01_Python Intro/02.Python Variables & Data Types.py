@@ -1,9 +1,13 @@
-# Variable
 
 """
-A Variable is the bottle (container), and Data is the water (content). The variable provides a named space, while the data is the
- actual value kept inside. You can change the data (refill the bottle) whenever needed while keeping the same variable name.
+              <------------------ Variable ----------------------->
+In programming, a Variable is like a labeled bottle that holds data. It allows you to store, retrieve, and manipulate information in your code.
+
 """
+
+# A Variable is the bottle (container), and Data is the water (content). The variable provides a named space, while the data is the
+# actual value kept inside. You can change the data (refill the bottle) whenever needed while keeping the same variable name.
+
 
 # Variable is a container to store data values.
 # In Python, you don't need to declare the type of variable explicitly.
@@ -38,14 +42,13 @@ print (id(a))  # Output: 140722769095384; prints the memory address of the varia
 # Every time you assign a value to a variable, Python creates an object in memory to hold that value and the variable name points to that object.
 
 
-
-# Data Types in Python: 
-
 """
+  <------------------- Data Types in Python --------------------> 
 Data Types define what kind of "liquid" or content you are storing in your variable "bottle." For example, 
 an Integer represents whole amounts like 500 (ml), while a Float handles decimal values like 1.5 (liters). If
  you want to store a label or name, you use a String, which is text wrapped in quotes like "Pure Water", and for simple
    yes/no states, you use a Boolean to check if the bottle is full (True) or empty (False).
+
 """
 
 # Data Types ----> Numbers, Strings, Lists, Dictionaries, Tuples, Sets, Booleans, Range, etc.
@@ -60,11 +63,14 @@ an Integer represents whole amounts like 500 (ml), while a Float handles decimal
 # Sets: An unordered collection of unique items.
 # Range: Represents an immutable sequence of numbers.
 
+"""
+  <------------------- Number Data Type -------------------->
+Numbers are one of the most commonly used data types in programming. They are used to represent numeric values and perform mathematical operations."""
 
-# Number Data =>
-# 1-> 0, 1, 2, 10000, 63463, ... (Integers)
-# 2-> 1.1, 2.5, 40.70, ... (Floating Point Numbers)
-# 3-> Complex Numbers -> 1+2j, 5+3j, .... (used in advanced mathematics)
+# Number Data Type:
+# 1=> 0, 1, 2, 10000, 63463, ... (Integers)
+# 2=> 1.1, 2.5, 40.70, ... (Floating Point Numbers)
+# 3=> Complex Numbers -> 1+2j, 5+3j, .... (used in advanced mathematics)
 
 # Example of Number:
 num1 = 1032467234  # Integer
