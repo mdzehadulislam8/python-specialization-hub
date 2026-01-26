@@ -1,0 +1,20 @@
+📊 DATA SCIENCE – What it includes
+- Core Python
+- Math & Statistics
+  - Mean, Median, Mode
+  - Probability
+  - Standard Deviation
+- Data Collection
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- NumPy
+- Pandas
+- Data Visualization
+  - Matplotlib
+  - Seaborn
+- SQL for Data Analysis
+- Feature Engineering
+- Machine Learning (basic–intermediate)
+- Model Evaluation
+- Real-world Projects
+- Business Insights & Reporting

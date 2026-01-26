@@ -84,5 +84,83 @@ print(num2) # Output: 3.14
 print(num3) # Output: (2+3j)
 
 
+"""
+  <------------------- String Data Type --------------------> 
+  Strings are sequences of characters used to represent text. They can include letters, numbers, symbols, and spaces. In Python, strings are enclosed in either single quotes (' ') or double quotes (" ")."""
+
+# Example of String:
+str1 = 'Hello, World!'        # Using single quotes
+str2 = "Python is awesome."    # Using double quotes
+
+# Note : In Python, anything written inside quotes (' ' or " ") is always treated as a string—whether it is a character, a word, or even a number.
+# example : 
+str3 = '12345'  # This is a string, not a number
+print(type(str3))  # Output: <class 'str'>
+str4 = "4.2"     # This is also a string
+print(type(str4))  # Output: <class 'str'>
+str5 = 'True'    # This is a string, not a boolean
+print(type(str5))  # Output: <class 'str'>
+str6 = "I am 24 years old" # This is a string with numbers and text
+print(type(str6))  # Output: <class 'str'>
+
+
+# Now, if I want to get the output of all the strings, then:
+print(str1)  # Output: Hello, World!
+print(str2)  # Output: Python is awesome. 
+print(str3)  # Output: 12345
+print(str4)  # Output: 4.2
+print(str5)  # Output: True
+print(str6)  # Output: I am 24 years old
+
+
+
+
+"""  <------------------- Boolean Data Type -------------------->
+Booleans are a data type that can hold one of two values: True or False.
+ They are commonly used in programming for decision-making and controlling the flow of a program based on conditions."""
+
+# Example of Boolean:
+bool1 = True # Always True with a capital 'T'
+bool2 = False # Always False with a capital 'F'
+print(type(bool1))  # Output: <class 'bool'>
+print(type(bool2))  # Output: <class 'bool'>
+print(bool1)  # Output: True
+print(bool2)  # Output: False
+
+A = True # True value is treated as 1 in arithmetic operations
+B = True
+C = False # False value is treated as 0 in arithmetic operations
+
+A + B + C # Output: 2 (1 + 1 + 0) Because True is 1 and False is 0
+print(A + B + C)  # Output: 2
+
+
+"""  <------------------- Null Data -------------------->
+In programming, null represents the absence of a value or a non-existent value. In Python, the equivalent of null is None. It is used to indicate that a variable does not have any value assigned to it."""
+
+# Example of Null:
+null_var = None # Always None with a capital 'N'
+print(type(null_var))  # Output: <class 'NoneType'>
+print(null_var)  # Output: None
+# None is often used to signify 'no value' or 'nothing here' in various programming scenarios.
+
+
+
+# Extra Variables declareration examples:
+x, y, z = 5, 10.5, "Hello"  # Multiple variable declaration in a single line
+print(x)  # Output: 5
+print(y)  # Output: 10.5
+print(z)  # Output: Hello
+# You can also assign the same value to multiple variables in a single line:
+a = b = c = 100
+print(a)  # Output: 100
+print(b)  # Output: 100
+print(c)  # Output: 100
+
+
+
+
+
+
 
 
