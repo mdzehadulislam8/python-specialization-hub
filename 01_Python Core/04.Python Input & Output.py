@@ -34,6 +34,8 @@ user_input = input()  # Takes input from the user without any prompt
 print("You entered:", user_input)  # Output the entered input
 
 # With instruction:
+# Why instruction?
+# Providing instructions helps guide the user on what kind of input is expected, making the interaction more user-friendly and reducing the chances of incorrect input.
 user_input2 = input("Please enter something: ")  # Takes input with a prompt and showing instruction
 print("You entered:", user_input2)  # Output the entered input and showing instruction
 #Example:
