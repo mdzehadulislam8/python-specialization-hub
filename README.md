@@ -9,14 +9,14 @@ Master Python programming from fundamentals to advanced concepts - comprehensive
 ```
 Python-Specialization-Hub/
 │
-├── 01-Python-Core/ ⭐ (Currently Working)
+├── 01-Python-Core/ 
 │   ├── 01-Basics/
 │   │   ├── syntax.py
 │   │   ├── variables.py
 │   │   ├── data_types.py
 │   │   └── input_output.py
 │   │
-│   ├── 02-Control-Flow/
+│   ├── 02-Control-Flow/ ⭐ (Currently Working)
 │   │   ├── if_else.py
 │   │   ├── loops.py
 │   │   └── match_case.py
