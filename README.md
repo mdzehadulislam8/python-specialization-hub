@@ -76,16 +76,6 @@ Python-Specialization-Hub/
 
 ---
 
-## 🚀 Quick Start
-
-```bash
-git clone https://github.com/yourusername/python-specialization-hub.git
-cd python-specialization-hub
-python 01.Python\ Syntax.py
-```
-
----
-
 ## ✨ Features
 
 - 📚 Well-organized, beginner to advanced
