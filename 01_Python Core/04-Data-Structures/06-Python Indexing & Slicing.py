@@ -129,4 +129,14 @@ result = user_input.index("BD")  # This will return the index of the first occur
 # If 'BD' is not found in the user input, it will raise a ValueError
 print(f"Index of 'BD' is: {result}")  # Output: Index of 'BD' is: <index of 'BD' in user input>
 
-
+# Problem 03: Welcome BD, convert the part where ‘BD’ appears into lowercase, and join it with the previous text using slicing.
+take_string = "Welcome BD"
+get = take_string[6:]
+get = " bd"
+get_next = take_string[:7]
+final_result = get_next + get
+print(final_result)  # Output: Welcome bd
+# Short way upper and lower
+take_string = "Welcome BD"
+print(take_string.lower()) # Output: welcome bd <--- Every character will be converted to lowercase.
+print(take_string.upper()) # Output: WELCOME BD <--- Every character will be converted to uppercase.
